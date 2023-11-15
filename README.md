@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+Lending Club Case Study - by Thang Nguyen and Prashanth
 
 
 ## Table of Contents
