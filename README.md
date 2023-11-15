@@ -5,7 +5,8 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Raw data](#Raw-dataset)
-* [Conclusions](#conclusions)
+* [Key findings](#Key-findings)
+* [Recommendation](#Recommendation)
 * [Technologies Used](#technologies-used)
 * [Acknowledgements](#contact)
 
@@ -22,11 +23,18 @@ Out objectives are to understand the driving factors (or driver variables) beh
 ### Raw dataset
 loan.csv
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+## Key findings
+- Problem univariate analysis: 14 to 15% total loan cases and loan amounts
+- Correlation analysis: 
+    + Loan status has positive relationship with total payment received, the more we receive the better loan status. It means, the less amount we have received, the more likely there are charged off or default cases. 
+    + Loan status has negative relationship with total collection recovery fees or late payment received. 
+    Besides, there are risks associated with the grade of profile and those loans with high interest rate (but not strong) as following more detailed views.
+- Bivariate analysis: Charged off loans are more likely at higher interest rate loans, and less likely at the higher grade (more reliable with more assets) profiles
+
+## Recommendation
+- For current loans, because the charged off loans are highly correlated with total payment received up-to-date, thus we need to monitor and push very closely the on-time payments to lower the risks of default. Once there are signals of late payments, urgent actions need to be taken to prevent higher risks of later default. The more customers pay, the lower rate of default or lower our business losses
+- For future loans, we need to watch out the payment history of customers to past loans, the more they paid on-time, the lower risk of their default in next loans. Besides, watch out the lower grade profiles and high interest rate loan for early risks detection. We need to reduce or reject the late-paid customer’s loan applications and low grade profile (even they can accept the high interest rate loan) to lower the risks and prevent the business losses.
+
 
 ## Technologies Used
 Following lib imported:
